@@ -17,12 +17,17 @@ import './index.scss'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-
+//fr pt
   useEffect(() => {
-    return setTimeout(() => {
-      setLetterClass('text-animate-hover')
-    }, 3000)
-  }, [])
+    const timeoutId = setTimeout(() => {
+      setLetterClass('text-animate-hover');
+    }, 3000);
+  
+    return () => {
+      clearTimeout(timeoutId); // This clears the timeout if the component unmounts before it fires.
+    };
+  }, []);
+  
 
 
   return (
