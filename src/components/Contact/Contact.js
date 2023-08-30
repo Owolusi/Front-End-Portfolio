@@ -8,7 +8,7 @@ import './index.scss'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const form = useRef()
+  const refForm = useRef()
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
@@ -25,7 +25,14 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-      .sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
+      .sendForm(
+        'service_24z9oga',
+        'template_nvaiqoa',
+        refForm.current, 
+        'aosa5YaqVHhMv5JMX',
+      )
+
+
       .then(
         () => {
           alert('Message successfully sent!')
@@ -48,13 +55,12 @@ const Contact = () => {
               idx={15}
             />
           </h1>
-          <p>
-            I am interested in freelance opportunities - especially on ambitious
-            or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+          <p className='contact-text'>
+            I am interested in freelance opportunities - or large projects. However, if you have any other requests or
+            questions, don't hesitate to contact me using the form below.
           </p>
           <div className="contact-form">
-            <form ref={form} onSubmit={sendEmail}>
+            <form ref={refForm} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
                   <input placeholder="Name" type="text" name="name" required />
@@ -97,7 +103,7 @@ const Contact = () => {
           Branka RadiČevića 19, 22000 <br />
           Sremska Mitrovica <br />
           <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <span>m.bunmi5@gmail.com</span>
         </div>
         <div className="map-wrap">
           <MapContainer center={[44.96366, 19.61045]} zoom={13}>
