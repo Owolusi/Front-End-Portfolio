@@ -14,6 +14,15 @@ const Home=()=>{
     const jobArray=['W','e','b',' ','D','e','v','e','l','o','p','e','r',' '
 ]
 
+useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setLetterClass('text-animate-hover');
+    }, 4000);
+  
+    return () => {
+      clearTimeout(timeoutId); // This clears the timeout if the component unmounts before it fires.
+    };
+  }, []);
 
 
     

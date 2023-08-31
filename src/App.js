@@ -8,6 +8,7 @@ import './App.scss'
 import Layout from './components/Layout'
 import About from './components/About/About'
 import Contact from './components/Contact/Contact'
+import Projects from './components/Projects/Projects'
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path='about' element={<About/>}/>
+        <Route path='Projects' element={<Projects/>}/>
+
         <Route path='Contact' element={<Contact/>}/>
 
   </Route>
