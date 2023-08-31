@@ -3,7 +3,8 @@ import React from 'react';
 import {useState} from 'react'; 
 import './index.scss';
 import {images} from "../../Helpers/projectData";
-import {faArrowLeft, faArrowRight} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 function Carousel() {
     const [currImg, setCurrImg]=useState(0);
@@ -35,7 +36,9 @@ function Carousel() {
             currImg>0 && setCurrImg(currImg-1);//if else statement in js
            }}>
 
-            <faArrowLeft style={{fontSize:30}}/>
+<FontAwesomeIcon icon={faArrowLeft} color="white" style={{fontSize:30}}/>
+
+
 
            </div>
            <div className="Center">
@@ -45,7 +48,8 @@ function Carousel() {
            onClick={()=>{
             currImg<images.length-1 && setCurrImg(currImg+1) //if else statement in js
            }}>
-           <faArrowRight  style={{fontSize:30}}/>
+            <FontAwesomeIcon icon={faArrowRight} color="white"  style={{fontSize:30}}/>
+
             
            </div>
            
