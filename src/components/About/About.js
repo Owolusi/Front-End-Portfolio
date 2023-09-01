@@ -41,20 +41,17 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+          <p>Hi,
+            I'm a  front-end developer and web designer looking for opportunity to work in IT companies, or
+            on freelance projects.
           </p>
           <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+            I used modern and recent technologies to create responsive websites that are both
+            virtually enticing and efficient in delivering their stated purposes
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
-          </p>
+            I am a published poet and fiction writer, with passion for creating beauty with words and code.
+            In short " I AM THE GOOD GUY"</p>
         </div>
 
         <div className="stage-cube-cont">
