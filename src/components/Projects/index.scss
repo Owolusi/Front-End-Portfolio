@@ -68,7 +68,7 @@
     align-items: center;
     text-align: center;
     color: black;
-    margin: 20px 70px;
+    margin: 20px 90px;
          border-color: white;
          width: 85%;
          max-width: 100%;
@@ -90,7 +90,7 @@
      background-size: cover;
      display: flex;
      border-radius: 15px;
-     margin: 3px 17px;
+     margin-left:7px;
      position: absolute;
 
  }
@@ -129,7 +129,7 @@
  }
 
 
-}
+
 .tags{
     
     color: #ffd700;
@@ -140,3 +140,41 @@
     font-size: 18px;
     font-family: "La Belle Aurore";
 }
+
+
+@media screen and (max-width: 900px) {
+
+
+    .project-details{
+        border-radius: 60px;
+        height: 50vh;
+        background-color:white;    
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       color: black;
+       margin-right: 20px;
+       margin-left: 31px;
+
+            border-color: white;
+            width: 85%;
+            max-width: 100%;
+            padding: 0%;
+    
+      
+    
+    }
+    
+ .project-carol{
+     height: 53%;
+     border-radius: 15px;
+     margin-left:7px;
+     position: absolute;
+
+ }
+ 
+    
+   
+}
+}
+  

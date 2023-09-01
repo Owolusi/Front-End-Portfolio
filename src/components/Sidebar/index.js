@@ -36,7 +36,7 @@ const Sidebar = () => {
         </NavLink>
         <NavLink
           activeclassname="active"
-          className="portfolio-link"
+          className="project-link"
           to="/Projects"
           onClick={() => setShowNav(false)}
         >

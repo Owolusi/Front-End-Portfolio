@@ -48,7 +48,7 @@ const Contact = () => {
     <>
       <div className="container contact-page">
         <div className="text-zone">
-          <h1>
+          <h1 className='contact-heading'>
             <AnimatedLetters
               letterClass={letterClass}
               strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
@@ -56,8 +56,8 @@ const Contact = () => {
             />
           </h1>
           <p className='contact-text'>
-            I am interested in freelance opportunities - or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using the form below.
+            I am willing to partner in large projects, or work as a freelancer. If you have 
+            questions, and want to say hi, kindly use the form below.Thank you.
           </p>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>
@@ -106,10 +106,10 @@ const Contact = () => {
           <span>m.bunmi5@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+          <MapContainer center={[7.2525600, 5.1931200]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[7.265173, 5.201644]}>
-              <Popup>Mighty lives here, come over for a cup of coffee :)</Popup>
+              <Popup>Mighty lives here, come visit, there is coffee and text :)</Popup>
             </Marker>
           </MapContainer>
         </div>
