@@ -30,7 +30,7 @@
       text-align: center;
       height: 210px;
       top: 50%;
-      margin-top: -120px;
+      margin-top: -180px;
       width: 100%;
 
       a{
@@ -97,9 +97,9 @@
 
 
 
-      a.contact-link{
+      a.resume-link{
         &:after{
-            content: 'CONTACT';
+            content: 'RESUME';
         }
     }
     a.publication-link{
@@ -174,7 +174,7 @@
         top: 0;
         left: 0;
         background: #181818;
-        height: 43%;
+        height: 48%;
         margin: 0;
         z-index: 2;
         position: fixed;

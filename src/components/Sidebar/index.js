@@ -55,7 +55,7 @@ const Sidebar = () => {
 
         <NavLink
           activeclassname="active"
-          className="contact-link"
+          className="resume-link"
 
           to={Resume} download='Resume.jpg'
 

@@ -7,6 +7,9 @@ import AnimatedLetters from '../AnimatedLetters';
 import Logo from './Logo';
 import Loader from 'react-loaders';
 
+import {faGithub, faTwitter, faYoutube,faDiscord, faSkype,faLinkedin, faBuromobelexperte} from '@fortawesome/free-brands-svg-icons'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+
 
 const Home=()=>{
     const [letterClass, setLetterClass]=useState('text-animate')
@@ -60,6 +63,65 @@ useEffect(() => {
                             </Link>
                         </div>
                         <Logo />
+
+                        
+                            
+        <div className='socials'>
+
+<ul>
+<li>
+  <a
+    href="https://www.linkedin.com/mwlite/in/owolusi-lucky-36b540175"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <FontAwesomeIcon
+      icon={faLinkedin}
+      color="#4d4d4e"
+      className="footer-icon"
+    />
+  </a>
+</li>
+<li>
+  <a
+    href="https://github.com/Owolusi/"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <FontAwesomeIcon
+      icon={faGithub}
+      color="#4d4d4e"
+      className="footer-icon"
+    />
+  </a>
+</li>
+<li>
+  <a
+    href=""
+    rel="noreferrer"
+    target="_blank"
+  >
+    <FontAwesomeIcon
+      icon={faYoutube}
+      color="#4d4d4e"
+      className="footer-icon"
+    />
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/Mighty_scribe" rel="noreferrer" target="_blank">
+    <FontAwesomeIcon
+      icon={faTwitter}
+      color="#4d4d4e"
+      className="footer-icon"
+    />
+  </a>
+</li>
+</ul>
+
+    
+</div>
+
 
 
         </div>
