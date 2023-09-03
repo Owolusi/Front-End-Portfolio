@@ -93,6 +93,27 @@
               content: 'CONTACT';
           }
       }
+
+
+
+
+      a.contact-link{
+        &:after{
+            content: 'CONTACT';
+        }
+    }
+    a.publication-link{
+        &:after{
+            content: 'PUBLICATION';
+        }
+    }
+   
+
+
+
+
+
+
       a.active{
           svg{
               color: #ffd700;
@@ -153,7 +174,7 @@
         top: 0;
         left: 0;
         background: #181818;
-        height: 100%;
+        height: 33%;
         margin: 0;
         z-index: 2;
         position: fixed;
