@@ -32,7 +32,15 @@ useEffect(() => {
     return(
        
         <div className="container home-page">
-             <div className="text-zone">
+                  <div className='profile-image'>
+
+          <div className='profile-image-background'>
+
+          </div>
+          
+            
+            </div>
+          <div className="text-zone">
 
                         <h1>
                             <span className={letterClass} >H</span>
@@ -65,7 +73,6 @@ useEffect(() => {
                             </Link>
                         </div>
                         <Logo />
-
                         
                             
         <div className='socials'>
