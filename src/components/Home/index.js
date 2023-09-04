@@ -1,6 +1,6 @@
 import './Home.scss';
 
-import LogoTitle from '../../assets/images/logo-s.png';
+import LogoTitle from '../../assets/images/logo-m4.jpg';
 import {Link} from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
@@ -14,7 +14,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 const Home=()=>{
     const [letterClass, setLetterClass]=useState('text-animate')
     const nameArray=['i','g','h','t','y']
-    const jobArray=['W','e','b',' ','D','e','v','e','l','o','p','e','r',' '
+    const jobArray=['W','e','b','  ','D','e','v','e','l','o','p','e','r',' '
 ]
 
 useEffect(() => {
@@ -68,6 +68,7 @@ useEffect(() => {
                         />
                         </h1>
                         <h2>Frontend Developer/ Web Designer/ Writer</h2>
+                        <h2>HTML/ CSS/ Js/React.js/ Bootstrap/ Wordpress/ Git/ Github/ Firebase</h2>
                         <Link  to='/contact' className='flat-button'>
                             CONTACT ME
                             </Link>
@@ -130,9 +131,6 @@ useEffect(() => {
 
     
 </div>
-
-
-
         </div>
     )
     }
