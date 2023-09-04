@@ -5,7 +5,7 @@ import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faEnvelope, faHome, faUser, faSuitcase,faClose, faBars, faBookReader, faFile,} from '@fortawesome/free-solid-svg-icons'
-import {faGithub, faTwitter, faYoutube,faDiscord, faSkype,faLinkedin, faBuromobelexperte} from '@fortawesome/free-brands-svg-icons'
+import {faGithub, faTwitter, faFacebook,faDiscord,faLinkedin,} from '@fortawesome/free-brands-svg-icons'
 import Resume from '../../assets/images/Lucky-Resume.jpg'
 
 const Sidebar = () => {
@@ -90,7 +90,7 @@ const Sidebar = () => {
           >
             <FontAwesomeIcon
               icon={faLinkedin}
-              color="#4d4d4e"
+              color="#fff"
               className="anchor-icon"
             />
           </a>
@@ -103,20 +103,20 @@ const Sidebar = () => {
           >
             <FontAwesomeIcon
               icon={faGithub}
-              color="#4d4d4e"
+              color="white"
               className="anchor-icon"
             />
           </a>
         </li>
         <li>
           <a
-            href=""
+            href="https://www.facebook.com/owolusi "
             rel="noreferrer"
             target="_blank"
           >
             <FontAwesomeIcon
-              icon={faYoutube}
-              color="#4d4d4e"
+              icon={faFacebook}
+              color="#fff"
               className="anchor-icon"
             />
           </a>
@@ -125,7 +125,7 @@ const Sidebar = () => {
           <a href="https://twitter.com/Mighty_scribe" rel="noreferrer" target="_blank">
             <FontAwesomeIcon
               icon={faTwitter}
-              color="#4d4d4e"
+              color="#fff"
               className="anchor-icon"
             />
           </a>

@@ -7,7 +7,7 @@ import AnimatedLetters from '../AnimatedLetters';
 import Logo from './Logo';
 import Loader from 'react-loaders';
 
-import {faGithub, faTwitter, faYoutube,faDiscord, faSkype,faLinkedin, faBuromobelexperte} from '@fortawesome/free-brands-svg-icons'
+import {faGithub, faTwitter, faYoutube,faDiscord, faSkype,faLinkedin, faBuromobelexperte, faFacebook} from '@fortawesome/free-brands-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 
@@ -41,6 +41,8 @@ useEffect(() => {
                             <br/>
                             <span className={`{$letterClass}_13`}>I</span>
                             <span className={`{$letterClass}_1`}>'m,</span>
+
+                            <br />
 
  
                         <img src={LogoTitle} alt="developer" />
@@ -97,12 +99,12 @@ useEffect(() => {
 </li>
 <li>
   <a
-    href=""
+    href="https://www.facebook.com/owolusi"
     rel="noreferrer"
     target="_blank"
   >
     <FontAwesomeIcon
-      icon={faYoutube}
+      icon={faFacebook}
       color="#4d4d4e"
       className="footer-icon"
     />

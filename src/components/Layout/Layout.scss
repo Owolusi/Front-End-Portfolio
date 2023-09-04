@@ -112,14 +112,11 @@
   
 }
 
-@media screen and (max-width:900px) {
-  .page{
-    position: initial;
-  }
 
 @media screen and (max-width: 900px) {
   .page {
     position: initial;
+    width: 90%;
   }
 
   .container {
@@ -158,9 +155,8 @@
   }
  
 .home-page{
-  width: 50%;
+  width: 57%;
 }
 
 
-}
 }
