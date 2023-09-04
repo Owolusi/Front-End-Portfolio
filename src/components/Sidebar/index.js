@@ -6,7 +6,7 @@ import LogoSubtitle from '../../assets/images/logo_sub.png'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faEnvelope, faHome, faUser, faSuitcase,faClose, faBars, faBookReader, faFile,} from '@fortawesome/free-solid-svg-icons'
 import {faGithub, faTwitter, faFacebook,faDiscord,faLinkedin,} from '@fortawesome/free-brands-svg-icons'
-import Resume from '../../assets/images/Lucky-Resume.jpg'
+import Resume from '../../assets/images/Lucky_resume.pdf'
 
 const Sidebar = () => {
   const [showNav, setShowNav] = useState(false);
@@ -53,16 +53,14 @@ const Sidebar = () => {
         </NavLink>
 
 
-        <NavLink
-          activeclassname="active"
-          className="resume-link"
-
-          to={Resume} download='Resume.jpg'
-
-          onClick={() => setShowNav(false)}
-        >
-          <FontAwesomeIcon icon={faFile} color="#4d4d4e" />
-        </NavLink>
+        <a
+  className="resume-link"
+  href={Resume} // Use the imported resume PDF file path
+  download="Lucky-Resume.pdf" // Specify the desired filename with the correct file extension (.pdf)
+  onClick={() => setShowNav(false)}
+>
+  <FontAwesomeIcon icon={faFile} color="#4d4d4e" />
+</a>
 
         
         <NavLink
