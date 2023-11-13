@@ -127,9 +127,14 @@
     }
   }
 
-  .socials {
+  .socials {    
     width: 100%;
-    display: flex;
+    display: table-caption;
+    margin-top: -8px;
+    margin-left: -34px;
+
+
+    
   }
 
   @media screen and (max-width: 900px) {
@@ -179,7 +184,7 @@
       .footer-icon {
         margin-top: 10px;
         height: 2em;
-        margin-right: -12px;
+        margin-right: 2px;
         color: #fff;
       }
 
